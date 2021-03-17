@@ -7,6 +7,7 @@ pipeline {
                 echo 'Building..'
                 nodejs('NodeJS'){
                     sh 'yarn install'
+                }
             }
         }
         stage('Test') {
